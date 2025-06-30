@@ -271,7 +271,7 @@ POST https://${url}/api/spot/support
 
 | 字段名称 | 字段类型 | 是否必需 | 字段含义 |
 |---------|----------|----------|------|
-| currency | String | YEW | 充提币种 |
+| currency | String | YES | 充提币种 |
 | withdrawExchange | String | YES | 提现交易所。如(*gate、binance、huobi、okx、kucoin、mexc、bybit、deribit、bitget*) |
 | depositExchange | String | YES | 充值交易所。同上 |
 
@@ -329,5 +329,8 @@ SIGN: <sign>
 | BINANCE  | Sub-account email   |
 | HUOBI    | Sub user’s UID      |
 | GATE     | Sub account user ID |
-| GATEHK   | Sub account user ID |
+| GATE-MALTA   | Sub account user ID |
 | OKX     | sub-account name    |
+| BYBIT | sub-account UID |
+| BITGET | sub-account UID |
+| KUCOIN | sub-account UID |
