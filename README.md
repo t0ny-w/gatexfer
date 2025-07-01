@@ -301,7 +301,7 @@ SIGN: <sign>
     "estFee": 0.00332,
     // 所有list结果中最小精度值
     "precision": 9,
-    "list": [
+    "lists": [
       {
         "withdrawExchange": "Gate",
         "depositExchange": "Binance", 
